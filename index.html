@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Wasteland, Utah</title>
+    
+<link rel="stylesheet" href="ccstyle.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/HTML%20image.jpg"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                    <li><a href="https://mogdustin.github.io/IT1150/Lab1/DKucinic.html">Lab 1</a></li>
+                    <li><a href="https://mogdustin.github.io/Lab02/">Lab 2</a></li>
+                    <li><a href="https://mogdustin.github.io/Lab-3/">Lab 3</a></li>
+                    <li><a href="https://mogdustin.github.io/Lab4/">Lab 4</a></li>   
+                    <li><a href="https://mogdustin.github.io/Lab-5/">Lab 5</a></li>  
+               </ul>
+               
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About me! </h1>
+
+    </section>
+
+<!------- footer ------>
+  <section class="footer">
+      <p> In taking this class I am hoping to expand upon my knowledge of coding. I dont think HTML is something Iam going to be using often, but its a good knowledge to have.
+
+I became interested in programming through my last job. it was just facinating to me that they were able to build a whole business system from scratch. Ive always been a problem solver and it seems that essentially thats what coding is.
+
+my Goals is to get a job as a software engineer. Eventually I would like to work for Nasa as I think that would be a really cool job.
+
+to work at nasa is a dream goal and eventually get into teaching.
+
+</p>
+      <div class="icons">
+          <i class="fa fa-facebook-square"></i>
+          <i class="fa fa-twitter-square"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin-square"></i>
+      </div>
+      <p> Made by Dustin Kucinic </p>
+      
+  </section>
+  
+
+   
+<!------- JavaScript for Toggle Menu ------>   
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"; 
+    }
+    
+</script>    
+    
+    
+</body>
+</html>
